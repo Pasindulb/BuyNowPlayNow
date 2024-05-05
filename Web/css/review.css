@@ -1,0 +1,402 @@
+.section-cards {
+    z-index: 3;
+    position: relative;
+}
+
+.section-gray {
+    background: #E5E5E5;
+    padding: 60px 0 30px 0;
+}
+
+
+/*---------------------------------------------------------------------- /
+CARDS
+----------------------------------------------------------------------- */
+
+.card1 {
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    margin-bottom: 30px;
+    border-radius: 6px;
+    color: rgba(0, 0, 0, 0.87);
+    background: #fff;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
+}
+
+.card1 .card1-image {
+    height: 60%;
+    position: relative;
+    overflow: hidden;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: -30px;
+    border-radius: 6px;
+    box-shadow: 0 16px 38px -12px rgba(0, 0, 0, 0.56), 0 4px 25px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
+}
+
+.card1 .card1-image img {
+    width: 100%;
+    height: 100%;
+    border-radius: 6px;
+    pointer-events: none;
+}
+
+.card1 .card1-image .card1-caption {
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
+    color: #fff;
+    font-size: 1.3em;
+    text-shadow: 0 2px 5px rgba(33, 33, 33, 0.5);
+}
+
+.card1 img {
+    width: 100%;
+    height: auto;
+}
+
+.img-raised {
+    box-shadow: 0 16px 38px -12px rgba(0, 0, 0, 0.56), 0 4px 25px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
+}
+
+.card1 .ftr {
+    margin-top: 15px;
+}
+
+.card1 .ftr div {
+    display: inline-block;
+}
+
+.card1 .ftr .author {
+    color: #888;
+}
+
+.card1 .ftr .stats {
+    float: right;
+    line-height: 30px;
+}
+
+.card1 .ftr .stats {
+    position: relative;
+    top: 1px;
+    font-size: 14px;
+}
+
+
+/* ============ Card Table ============ */
+
+.table {
+    margin-bottom: 0px;
+}
+
+.card1 .table {
+    padding: 15px 30px;
+}
+
+.card1 .table-primary {
+    background: linear-gradient(60deg, #ab47bc, #7b1fa2);
+}
+
+.card1 .table-info {
+    background: linear-gradient(60deg, #26c6da, #0097a7);
+}
+
+.card1 .table-success {
+    background: linear-gradient(60deg, #66bb6a, #388e3c);
+}
+
+.card1 .table-warning {
+    background: linear-gradient(60deg, #ffa726, #f57c00);
+}
+
+.card1 .table-danger {
+    background: linear-gradient(60deg, #ef5350, #d32f2f);
+}
+
+.card1 .table-rose {
+    background: linear-gradient(60deg, #ec407a, #c2185b);
+}
+
+.card1 [class*="table-"] {
+    color: #FFFFFF;
+    border-radius: 6px;
+}
+
+.card1 [class*="table-"] .card1-caption a,
+.card1 [class*="table-"] .card1-caption,
+.card1 [class*="table-"] .icon i {
+    color: #FFFFFF;
+}
+
+.card1 [class*="table-"] .icon i {
+    border-color: rgba(255, 255, 255, 0.25);
+}
+
+.card1 [class*="table-"] .author a,
+.card1 [class*="table-"] .ftr .stats,
+.card1 [class*="table-"] .category,
+.card1 [class*="table-"] .card1-description {
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.card1 [class*="table-"] .author a:hover,
+.card1 [class*="table-"] .author a:focus,
+.card1 [class*="table-"] .author a:active {
+    color: #FFFFFF;
+}
+
+.card1 [class*="table-"] h1 small,
+.card1 [class*="table-"] h2 small,
+.card1 [class*="table-"] h3 small {
+    color: rgba(255, 255, 255, 0.8);
+}
+
+
+/* ============ Card Blog ============ */
+
+.card1-blog {
+    margin-top: 30px;
+}
+
+.card1-blog .card1-caption {
+    margin-top: 5px;
+}
+
+.card1-blog .card1-image + .category {
+    margin-top: 20px;
+}
+
+.card1-raised {
+    box-shadow: 0 16px 38px -12px rgba(0, 0, 0, 0.56), 0 4px 25px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
+}
+
+
+/* ============ Card Background ============ */
+
+.card1-background {
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+}
+
+.card1-background .table {
+    position: relative;
+    z-index: 2;
+    min-height: 280px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    max-width: 440px;
+    margin: 0 auto;
+}
+
+.card1-background .category,
+.card1-background .card1-description,
+.card1-background small {
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.card1-background .card1-caption {
+    color: #FFFFFF;
+    margin-top: 10px;
+}
+
+.card1-background:after {
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    display: block;
+    left: 0;
+    top: 0;
+    table: "";
+    background-color: rgba(0, 0, 0, 0.56);
+    border-radius: 6px;
+}
+
+
+/* ============ Card Profile ============ */
+
+.card1-profile {
+    margin-top: 30px;
+    text-align: center;
+}
+
+
+/* ============ Card Category ============ */
+
+.category {
+    position: relative;
+    line-height: 0;
+    margin: 15px 0;
+}
+
+.card1 .category-social .fa {
+    font-size: 24px;
+    position: relative;
+    margin-top: -4px;
+    top: 2px;
+    margin-right: 5px;
+}
+
+
+/* ============ Card Author ============ */
+
+.card1 .author .avatar {
+    width: 36px;
+    height: 36px;
+    overflow: hidden;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+
+.card1 .author a {
+    color: #333;
+    text-decoration: none;
+}
+
+.card1 .author a .ripple-cont {
+    display: none;
+}
+
+
+/* ============ Card Product ============ */
+
+.card1-product {
+    margin-top: 30px;
+}
+
+.card1-product .btn-simple.btn-just-icon {
+    padding: 0;
+}
+
+.card1-product .ftr {
+    margin-top: 5px;
+}
+
+.card1-product .ftr .stats {
+    margin-top: 4px;
+    top: 0;
+}
+
+.card1-product .ftr h4 {
+    margin-bottom: 0;
+}
+
+.card1-product .card1-caption,
+.card1-product .category,
+.card1-product .card1-description {
+    text-align: center;
+}
+
+.card1-description p {
+    color: #888;
+}
+
+.card1-caption,
+.card1-caption a {
+    color: #333;
+    text-decoration: none;
+}
+
+.card1-caption {
+    font-weight: 700;
+    font-family: "Roboto Slab", "Times New Roman", serif;
+}
+
+
+/* ============ Card Testimonial ============ */
+
+.card1-testimonial {
+    margin-top: 0;
+    margin-bottom: 60px;
+    text-align: center;
+}
+
+.card1-profile .btn-just-icon.btn-raised,
+.card1-testimonial .btn-just-icon.btn-raised {
+    margin-left: 6px;
+    margin-right: 6px;
+}
+
+.card1-profile .card1-avatar,
+.card1-testimonial .card1-avatar {
+    max-width: 130px;
+    max-height: 130px;
+    margin: -50px auto 0;
+    border-radius: 50%;
+    overflow: hidden;
+    box-shadow: 0 16px 38px -12px rgba(0, 0, 0, 0.56), 0 4px 25px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
+}
+
+.card1-profile.card1-plain .card1-avatar,
+.card1-testimonial.card1-plain .card1-avatar {
+    margin-top: 0;
+}
+
+.card1-testimonial .card1-avatar {
+    max-width: 100px;
+    max-height: 100px;
+}
+
+.card1-testimonial .card1-description {
+    font-style: italic;
+}
+
+.card1-testimonial .card1-description + .card1-caption {
+    margin-top: 30px;
+}
+
+.card1-testimonial .icon {
+    margin-top: 30px;
+}
+
+.card1-testimonial .icon {
+    font-size: 40px;
+}
+
+.card1-testimonial .ftr {
+    margin-top: 0;
+}
+
+.card1-testimonial .ftr .card1-avatar {
+    margin-top: 10px;
+    margin-bottom: -50px;
+}
+
+
+/* ============ Text Color ============ */
+
+.text-warning {
+    color: #ff9800;
+}
+
+.text-primary {
+    color: #9c27b0;
+}
+
+.text-danger {
+    color: #f44336;
+}
+
+.text-success {
+    color: #4caf50;
+}
+
+.text-info {
+    color: #00bcd4;
+}
+
+.text-rose {
+    color: #e91e63;
+}
+
+.text-gray {
+    color: #888;
+}
+
+
+/*---------------------------------------------------------------------- /
+BUTTONS
+----------------------------------------------------------------------- */
+
