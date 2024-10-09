@@ -2,7 +2,7 @@
 # BuyNowPlayNow E-Commerce Website
 
 ## Description
-An e-commerce website built using **Bootstrap** and **PHP**. It allows users to browse products and make purchases.
+An e-commerce website for Video games built using **Bootstrap** and **PHP**. It allows users to browse Games and make purchases.
 
 ## Features
 - Product catalog
